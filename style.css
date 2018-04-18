@@ -1,6 +1,53 @@
 /**
 You can Add the styles that will be applied to the You tube player
  */
+.cinema-mode {
+    background-color: #1e1e1e;
+    color: #ffffff !important;
+}
+
+.cinema-mode input-content.paper-input-container textarea {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.cinema-mode #byline.ytd-video-meta-block,
+.cinema-mode #metadata-line.ytd-video-meta-block,
+.cinema-mode h3.ytd-compact-video-renderer,
+.cinema-mode .title.ytd-video-primary-info-renderer,
+.cinema-mode span.yt-view-count-renderer,
+.cinema-mode ytd-toggle-button-renderer.style-text[is-icon-button],
+.cinema-mode ytd-button-renderer[is-icon-button],
+.cinema-mode button.yt-icon-button,
+.cinema-mode a.yt-simple-endpoint.yt-formatted-string,
+.cinema-mode .date.ytd-video-secondary-info-renderer,
+.cinema-mode .content.ytd-video-secondary-info-renderer,
+.cinema-mode .content.ytd-metadata-row-renderer,
+.cinema-mode #author-text.yt-simple-endpoint.ytd-comment-renderer,
+.cinema-mode #moderation-reason-divider.ytd-comment-renderer,
+.cinema-mode #moderation-reason-text.ytd-comment-renderer,
+.cinema-mode #voted-option.ytd-comment-renderer,
+.cinema-mode #content-text.ytd-comment-renderer,
+.cinema-mode .more-button.ytd-comment-renderer,
+.cinema-mode .less-button.ytd-comment-renderer,
+.cinema-mode ytd-comment-action-buttons-renderer,
+.cinema-mode #reply-button.ytd-comment-action-buttons-renderer ytd-button-renderer.ytd-comment-action-buttons-renderer,
+.cinema-mode #reply-button-end.ytd-comment-action-buttons-renderer ytd-button-renderer.ytd-comment-action-buttons-renderer,
+.cinema-mode #expander.ytd-comment-replies-renderer,
+.cinema-mode .more-button.ytd-video-secondary-info-renderer,
+.cinema-mode .less-button.ytd-video-secondary-info-renderer,
+.cinema-mode .spinner-layer.paper-spinner-lite,
+.cinema-mode yt-formatted-string.ytd-comments-header-renderer,
+.cinema-mode yt-sort-filter-sub-menu-renderer.ytd-comments-header-renderer,
+.cinema-mode a.yt-simple-endpoint.yt-dropdown-menu,
+.cinema-mode #icon-label.yt-dropdown-menu,
+.cinema-mode {
+    color: #ffffff !important;
+    --yt-endpoint-color: #ffffff !important;
+    --iron-icon-fill-color: #ffffff !important;
+
+}
+
 @media (min-width: 1200px) {
 
     body, html {
