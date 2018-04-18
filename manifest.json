@@ -1,16 +1,18 @@
 {
   "name": "Youtube mobile experience",
+  "author": "Mohamed Ragaey <mohamedragaey33@gmail.com>",
   "version": "1.0",
   "description": "Build an Extension!",
   "permissions": [
     "tabs",
     "activeTab",
     "declarativeContent",
+    "<all_urls>",
     "storage"
   ],
-  "options_page": "options.html",
   "background": {
     "scripts": [
+      "thirdparty/jquery-3.3.1.min.js",
       "background.js"
     ],
     "persistent": false
@@ -30,10 +32,20 @@
       "128": "images/get_started128.png"
     }
   },
-  "content_scripts": [{
-    "css": ["style.css"],
-    "js": ["content.js"],
-    "matches": ["https://www.youtube.com/*"]
-  }],
+  "content_scripts": [
+    {
+      "css": [
+        "style.css"
+      ],
+      "js": [
+        "thirdparty/jquery-3.3.1.min.js"
+//        "fixed-video.js"
+      ],
+      "matches": [
+        "https://www.youtube.com/*"
+      ]
+    }
+  ],
+  "homepage_url": "https://github.com/mohamedragaey/Youtube-mobile-experience",
   "manifest_version": 2
 }

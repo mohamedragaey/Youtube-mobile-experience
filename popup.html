@@ -2,18 +2,32 @@
 <html>
 <head>
     <style>
-        button {
-            height: 30px;
-            width: 30px;
-            outline: none;
+        .main {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .fixed-player {
+            width: 250px;
+        }
+
+        .btn {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 5px 25px;
         }
     </style>
 </head>
 <body>
-<button id="changeColor"></button>
-<div id="float-player">
-    <button id="float-player-btn"></button>
-</div>
+<section class="main">
+    <button id="changeColor" class="btn">Change Background color</button>
+    <div id="fixed-player" class="fixed-player">
+        <p>To make the video player fixed at top screen </p>
+        <button id="float-player-btn" class="btn">Fix video</button>
+        <button id="float-player-reset-btn" class="btn">Reset</button>
+    </div>
+</section>
 <script src="popup.js"></script>
 </body>
 </html>

@@ -2,7 +2,7 @@
 You can Add the styles that will be applied to the You tube player
  */
 body, html {
-    background-color: aqua;
+    /*background-color: aqua;*/
 }
 
 ytd-app {
@@ -13,6 +13,19 @@ ytd-watch {
     background: inherit !important;
 }
 
-#player.ytd-watch {
+/*.ytd-watch {*/
+/*position: fixed;*/
+/*}*/
+.fixed {
     position: fixed !important;
+}
+
+.right-side-comments,
+.right-side-info,
+.right-side-meta {
+    width: auto !important;
+}
+
+#related.is-fixed {
+    padding-top: 480px;
 }
