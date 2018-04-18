@@ -39,7 +39,6 @@
       ],
       "js": [
         "thirdparty/jquery-3.3.1.min.js"
-//        "fixed-video.js"
       ],
       "matches": [
         "https://www.youtube.com/*"

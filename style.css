@@ -1,31 +1,31 @@
 /**
 You can Add the styles that will be applied to the You tube player
  */
-body, html {
-    /*background-color: aqua;*/
-}
+@media (min-width: 1200px) {
 
-ytd-app {
-    background: inherit !important;
-}
+    body, html {
+        /*background-color: aqua;*/
+    }
 
-ytd-watch {
-    background: inherit !important;
-}
+    ytd-app {
+        background: inherit !important;
+    }
 
-/*.ytd-watch {*/
-/*position: fixed;*/
-/*}*/
-.fixed {
-    position: fixed !important;
-}
+    ytd-watch {
+        background: inherit !important;
+    }
 
-.right-side-comments,
-.right-side-info,
-.right-side-meta {
-    width: auto !important;
-}
+    .fixed {
+        position: fixed !important;
+    }
 
-#related.is-fixed {
-    padding-top: 480px;
+    .right-side-comments,
+    .right-side-info,
+    .right-side-meta {
+        width: auto !important;
+    }
+
+    #related.is-fixed {
+        padding-top: 480px;
+    }
 }
